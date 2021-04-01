@@ -10,4 +10,8 @@ public class Constant {
     static final String HOME_PAGE_LINKTEXT = "Home";
     static final String QUESTION_PAGE_LINKTEXT = "Question";
     static final String ABOUT_PAGE_LINKTEXT = "About";
+
+    static final String TEAM_NAME = "DevFiksiki";
+
+    static final String QuestionPageURL = "http://localhost:4200/questions.html";
 }

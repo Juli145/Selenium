@@ -26,6 +26,18 @@ public class QuestionPage {
         driver.findElement(By.id("file-system"));
     }
 
+//    @Test
+//    public void test_FileSystemDropdown(){
+//
+//    }
+
+    @Test
+    public void test_FileSystemDropdown(){
+        driver.findElement(By.id("file-system")).click();
+        boolean actual = driver.getPageSource().contains("JSON");
+        Assertions.assertTrue(actual);
+    }
+
     @Test
     public void test_findQuestionThemeDropdown(){
         driver.findElement(By.id("questions-theme"));
